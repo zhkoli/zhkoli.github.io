@@ -1,0 +1,49 @@
+.grey_back {
+	padding-top:3%;
+	background:grey;
+}
+
+.grey_back h4{
+	font-size: 22px;
+	padding-bottom: 3%;
+	color: white;
+	text-align: center;
+}
+
+.first_image {
+	padding-top:2%;
+	float:left;
+	padding-left:5%;
+	text-align:right;
+}
+
+.two_image {
+	padding-top:2%;
+	float:left;
+	padding-left:5%;
+	padding-bottom: 2%;
+}
+
+.footer {
+	padding-top:8%;
+	padding-bottom:10%;
+	background:#052D3A;
+}
+
+.footer p {
+	text-align:center;
+}
+
+.footer_one {
+	float:left;
+	width:auto;
+	padding-left:30%;
+	color: white;
+}
+
+.footer_two {
+	float:left;
+	width:auto;
+	padding-left:8%;
+	color: white;
+}
