@@ -1,0 +1,391 @@
+@font-face { font-family: FontAwesome; src: url('../fontawesome-webfont.TTF'); }
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:1140px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+img{
+	display:block;
+	margin:0 auto;
+}
+
+header{
+
+}
+
+.logo{
+	width:20px;
+	float:left;
+
+}
+.logo img{
+	width:150px;
+	
+}
+.menu-bar{
+	width:auto;
+	padding-left: 18%;
+	float:left;
+	text-align:center;
+}
+nav ul{
+	line-style:none;
+}
+nav ul li{
+	display:inline-block;
+	margin:38px 24px;
+}
+nav ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#161616;
+}
+
+.social-icon{
+	width:30%;
+	float:left;
+	text-align:right;
+}
+.social-icon ul{ 
+	list-style:none;
+}
+.social-icon ul li{
+	display:inline-block;
+	margin:35px 4px;
+	transition:0.8s ease;
+}
+.social-icon ul li a{
+	color:#fff;
+}
+
+.fa.fa-facebook{
+	background:#243388;
+	padding:4px 8px;
+	text-align:center;
+	font-size:14px;
+}
+.fa.fa-twitter{
+ background:#2196F3;
+ padding:4px 8px;
+ text-align: center;
+ font-size:14px;
+}
+
+.fa.fa-linkedin{
+ background:#3F51B5;
+ padding:4px 8px;
+ text-align: center;
+ font-size:14px;
+}
+.fa.fa-google-plus{
+ background:#a51a13;
+ padding:4px 8px;
+ text-align: center;
+ font-size:14px;
+}
+
+.fa.fa-sign-in{
+ background: #000;
+ padding:4px 8px;
+ text-align: center;
+ font-size:14px;
+}
+
+.social-icon span a{
+	color:#243388;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.social-icon ul li:hover{
+ transform: rotate(360deg);
+}
+
+ /*Hero Section Start */
+.hero{
+	background:url(../image/finance.png)no-repeat;
+	background-size:cover;
+    background-attachment:fixed; 
+}
+
+.banner{
+	width:400px;
+	margin:50px 25px;
+	background:#9e9e9e75;
+	padding:70px;
+}
+
+.banner h1{
+	font-size:55px;
+	text-align:center;
+	margin:0px;
+	font-weight:bold;
+}
+.banner p{
+	text-align:center;
+	font-size:18px;
+	padding:10px 0px;
+}
+.banner ul{
+	list-style:none;
+	text-align:center;
+}
+
+.banner ul li{
+	display:inline-block;
+	margin:10px;
+} 
+.btn{
+	text-decoration:none;
+	background:#66c430;
+	padding:7px 7px;
+	color:#fff;
+	border-radius:5px;
+	text-transform:uppercase;
+	-webkit-transition:0.8sec ease;
+	-moz-transition:0.8sec ease;
+	-o-transition:0.8sec ease;
+    -ms--transition:0.8sec ease;
+}
+
+.btn:hover{
+	background:#243388;
+}
+.feature{
+
+}
+.feature-one{
+	width:25%;
+	float:left;
+	text-align:center;
+	margin:54px 0px;
+}
+.fa.fa-check{
+	background:3F51B5;
+	padding:21px;
+	color:#fff;
+	border-radius:44px;
+	font-size:44px;
+	margin-bottom:16px;
+}
+.feature-one h2{
+	text-transform:capitalize;
+	margin:15px;
+
+}
+
+.feature-one p{
+	text-align:justify;
+    padding:20px;
+}
+
+/*button.btn  {
+	background:#66c430;
+	padding:5px 10px;
+	color:#fff;
+	border:1px solid #3f51b5;
+}*/
+
+i.fa.fa-check{
+	background:#6879d4;
+	padding:21px;
+	color:#fff;
+	border-radius:44px;
+	font-size:44px;
+	margin-bottom:16px;
+}
+
+i.fa.fa-map-marker{
+	background: #009688;
+	padding:21px 31px;
+	color:#fff;
+	border-radius:42px;
+	font-size:44px;
+	margin-bottom:16px;
+}
+i.fa.fa-money{
+	background: #4CAF50;
+	padding:21px;
+	color:#fff;
+	border-radius:42px;
+	font-size:44px;
+	margin-bottom:16px;
+}
+
+i.fa.fa-user-plus{
+	background: #97e268;
+	padding:21px;
+	color:#fff;
+	border-radius:42px;
+	font-size:44px;
+	margin-bottom:16px;
+}
+.leave-msg{
+	position:fixed;
+	top:75%;
+	right:0;
+}
+.leave-msg a{
+	text-decoration:none;
+	font-size:16px;
+	background:#494949; 
+	color:#fff;
+	border-radius:5px 0px 0px 0px;
+	padding:5px;
+}
+
+.plan{
+
+}
+
+.plan-one{
+	width:32%;
+	float:left;
+	/*margin:0 auto;*/
+	margin:0px 50px;
+	padding:50px;
+	background-color:#B7CCD3;
+}
+
+.plan-one h2{
+	text-align:center;
+	color: #161616;
+	margin-bottom:20px;
+	font-size:32px;
+	font-weight:700;
+}
+
+.plan-one ul{
+	list-style:none;
+}
+.plan-one ul li{
+	margin:15px 0px;
+}
+i.fa.fa-stop-circle-o {
+	color:green;
+	padding-right:10px;
+}
+.plan-two{
+	width:32%;
+	float:left;
+	/*margin:0 auto;*/
+	margin:0px 50px;
+	padding:50px;
+	background-color:#B7CCD3;
+}
+.plan-two h2{
+	text-align:center;
+	color:#161616;
+	margin-bottom:20px;
+	font-size:32px;
+	font-weight:700;
+}
+.plan-two ul{
+	list-style:none;
+}
+.plan-two ul li{
+	margin:15px 0px;
+}
+.i.fa.fa-stop-circle-o{
+	color:green;
+	padding-right:10px;
+}
+.blog{
+	margin:30px 0px;
+}
+.blog h3{
+	text-align:center;
+	text-transform:capitalize;
+	text-align:center;
+	font-size:30px;
+	color:#095169;
+}
+.blog-box{
+	width:1000px;
+}
+.blog-one{
+	width:43%;
+	float:left;
+	padding:44px;
+}
+.blog-one h2{
+	color:#095199;
+	margin-bottom:13px;
+}
+.blog-one p{
+	color:#161616;
+	margin-bottom:10px;
+}
+.blog-two{
+	width:41%;
+	float:left;
+	padding:44px;
+}
+.blog-two h2{
+	color:#095199;
+	margin-bottom:39px;
+}
+.blog-two p{
+	margin-bottom:14px;
+}
+.achievement{
+	background:#9e9e9e5c;
+	padding:30px 0px;
+}
+.achievement-part{
+	width:400px;
+	margin:0 auto;
+	text-align:center;
+}
+.achievement-part h6{
+	font-size:20px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.achievement-part p{
+	margin:10px 0px;
+	font-weight:bold;
+	font-size:20px;
+}
+i.fa.fa-credit-card{
+	padding-right:5px;
+}
+i.fa.fa-users{
+	padding-right:5px;
+}
+i.fa.fa-files-o{
+	padding-right:5px;
+}
+.review{
+	padding:30px 0px;
+}
+i.fa.fa-star{
+	background:transparent;
+	color:#00B67A;
+	padding:5px;
+	font-size:40px;
+}
+i.fa.fa-star-o{
+	background:#73CF11;
+	color:#fff;
+	font-size:36px;
+	padding:5px;
+}
+i.fa.fa-star-o.no-review{
+	background:#9E9E9E;
+}
+.review-section{
+	width:349px;
+	margin:0 auto;
+	text-align:center;
+}
+.review-section h2{
+	text-transform:capitalize;
+}
+
